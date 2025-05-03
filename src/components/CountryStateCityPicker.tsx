@@ -11,7 +11,7 @@ type Props = {
   onChange: (country: Option, state: Option, city: Option) => void;
 };
 
-const API_BASE = 'https://api.gym-key.com/api/Location';
+const API_BASE = 'api?';
 
 const CountryStateCityPicker: React.FC<Props> = ({ onChange }) => {
   const [countries, setCountries] = useState<Option[]>([]);
