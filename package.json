@@ -37,7 +37,8 @@
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "clean": "del-cli lib",
     "prepare": "bob build",
-    "release": "release-it"
+    "release": "release-it",
+     "build": "bob build"
   },
   "keywords": [
     "react-native",
@@ -148,5 +149,8 @@
     "languages": "js",
     "type": "library",
     "version": "0.49.2"
+  },
+  "dependencies": {
+    "@react-native-picker/picker": "^2.11.0"
   }
 }
